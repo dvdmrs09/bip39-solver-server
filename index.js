@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors')
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 const sqlite3 = require('sqlite3').verbose();
 const AsyncLock = require('async-lock');
 const lock = new AsyncLock();
